@@ -17,6 +17,7 @@
   border: 0.5px solid #E1E1E1;
   border-radius: 8px;
   height: 48px;
+  width: 100%
 }
 
 .input__phone-number-selected input {
@@ -38,6 +39,7 @@
 .input__name {
   display: flex;
   gap: 40px;
+  width: 100%;
 }
 
 .input__phone-number-selected {
@@ -52,6 +54,7 @@
 .ContactUs-form input:focus {
   outline: none;
 }
+
 .input__message {
   display: flex;
   flex-direction: column;
@@ -82,6 +85,10 @@ textarea {
   .input__name {
     flex-wrap: wrap;
     gap: 10px;
+  }
+
+  .input__phone-number-selected {
+    width: 92.5vw;
   }
 
 }

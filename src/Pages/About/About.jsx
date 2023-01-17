@@ -14,7 +14,7 @@ function About() {
       <NavBar />
       <MainAboutPage />
       <Menu />
-      <h1>
+      <h1 className="tourism-site__header-text">
         Welcome to Africa Wizzy Safari <hr />
       </h1>
       <AboutContent />

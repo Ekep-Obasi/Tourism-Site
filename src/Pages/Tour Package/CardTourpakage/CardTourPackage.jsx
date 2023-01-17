@@ -13,7 +13,9 @@ function CardTourPackage() {
               <h2>{data.title}</h2>
               <p>{data.desc}</p>
             </div>
-            <button type="button">Learn More</button>
+            <div className="learnMore__button-container">
+              <button type="button">Learn More</button>
+            </div>
           </div>
         );
       })}

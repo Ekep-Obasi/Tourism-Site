@@ -5,7 +5,7 @@ import phonecontact from '../../../assets/images/groupphone.png';
 
 function ContactCard() {
   return (
-    <div className="contactCard">
+    <div className="tourismSite__contactCard">
       <div className="contact-card">
         <h3>Social Media</h3>
         <div className="imgIcons">

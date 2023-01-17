@@ -137,17 +137,18 @@
 
 @media screen and (max-width: 950px) {
   
-  .footerContainer {
-    margin: 10% 0 0 0;
-  }
-
   .footerWrapper {
     flex-wrap: wrap;
     flex-direction: column-reverse;
     justify-content: center;
     padding: 0 0;
+    gap: 50px;
   }
 
+  .formLable {
+   width: 75%;
+   margin: 5px 0;
+  }
 
   .container-left {
     margin: 0px 0;
@@ -162,23 +163,31 @@
   .subtextcontainer p{
     width: 75%;
     font-size: 18px;
-    margin: auto;
+    margin: 5px auto;
+  }
+
+  .input__button {
+    width: 75%;
   }
   
   .Footer__container__text-left h1 {
     width: 75%;
     font-size: 28px;
-    margin: auto;
+    margin: 5px auto;
   }
 
   .container-left {
     align-items: center;
     margin: 0;
+    gap: 10px;
   }
 
   .container-right {
     align-content: flex-start;
+    justify-content: space-between;
+    height: 380px;
     margin: 10px 0;
+
   }
 
   .container__right-text {
@@ -193,8 +202,13 @@
   flex-direction: column;
  }
 
+ .input__button input {
+  flex: 2;
+ }
+
  .input__button {
   padding: 2px 0 0 0;
+  display: flex;
 }
 
 .container__right-text p{

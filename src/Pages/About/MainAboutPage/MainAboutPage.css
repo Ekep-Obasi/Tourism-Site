@@ -26,7 +26,7 @@
 }
 
 .imageContainer__right {
-  background-image: url("../../../assets/images/Monkeys.jpg");
+  background-image: url("https://www.traveltimeuganda.com/wp-content/uploads/2021/10/Chimpanzee-Trekking-in-Rwanda-1512x650.jpg");
   width: 600px;
   height: 850px;
   top: 50px;
@@ -41,7 +41,7 @@
 @media screen and (max-width: 950px){
   
   .main-container {
-    background-image: url("../../../assets/images/Monkeys.jpg");
+    background-image: url("https://www.traveltimeuganda.com/wp-content/uploads/2021/10/Chimpanzee-Trekking-in-Rwanda-1512x650.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

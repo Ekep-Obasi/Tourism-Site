@@ -8,7 +8,7 @@ function Card() {
       {CardData.map((data) => {
         return (
           <div className="tourism-site__Card-card">
-            <div className="tourism-site__Card-card-text" key={data.desc}>
+            <div className="tourism-site__Card-card-text" key={data.id}>
               <img src={data.src} alt={data.title} />
               <h2>{data.title}</h2>
               <p>{data.desc}</p>

@@ -1,0 +1,12 @@
+.tourism-site__button {
+  width: 160px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+}

@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/about" element={<About />} />
           <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/tourpackage" element={<TourPackage />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contactus" element={<ContactUs />} />
